@@ -28,7 +28,7 @@
                 @click="selectedPhoto = photo"
                 class="relative group cursor-pointer overflow-hidden rounded-lg mx-4"
             >
-                <img :src="photo.url" alt="" class="w-full h-[400px] object-cover transition-transform duration-300 group-hover:scale-105 mb-4">    
+                <img :src="photo.url" alt="" class="w-full h-[400px] object-cover transition-transform duration-300 group-hover:scale-105 mb-4 rounded-lg">    
             </div>
         </div>
     </section>
