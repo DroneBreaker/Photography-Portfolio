@@ -1,6 +1,6 @@
 <template>
     <section>
-        <div class="container mx-auto">
+        <div class="container mx-auto mb-8">
         <!-- Category Filter -->
             <div class="flex flex-wrap gap-4 justify-center">
 
@@ -19,6 +19,18 @@
             </button>
             </div>
         </div>
+
+        <!-- Photo Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-4">
+            <div 
+                v-for="photo in filteredPhotos" 
+                :key="photo.id"
+                @click="selectedPhoto = photo"
+                class="relative group cursor-pointer overflow-hidden rounded-lg mx-4"
+            >
+                <img :src="photo.url" alt="" class="w-full h-[400px] object-cover transition-transform duration-300 group-hover:scale-105 mb-4">    
+            </div>
+        </div>
     </section>
 </template>
 
@@ -26,22 +38,44 @@
 import { ref, computed } from 'vue'
 
 const photos = [
-    {
-        id: 1,
-        url: 'https://images.unsplash.com/photo-1682687220742-aba19b51f9a8',
-        category: 'Exclusives',
-        description: 'Mountain peaks at sunset'
-    },
-
     { 
         id: 2, 
-        url: 'https://images.unsplash.com/photo-1682687220742-aba19b51f9a8', 
-        category: 'Portraits' 
+        url: '/assets/exclusive2.jpg', 
+        category: 'Exclusives' 
     },
 
     { 
         id: 3, 
-        url: 'https://images.unsplash.com/photo-1682687220742-aba19b51f9a8', 
+        url: '/assets/exclusive3.jpg', 
+        category: 'Exclusives' 
+    },
+    { 
+        id: 4, 
+        url: '/assets/exclusive4.jpg', 
+        category: 'Exclusives' 
+    },
+
+    { 
+        id: 5, 
+        url: '/assets/brac1.jpg', 
+        category: 'BRAC' 
+    },
+
+    { 
+        id: 6, 
+        url: '/assets/brac2.jpg', 
+        category: 'BRAC' 
+    },
+
+    { 
+        id: 7, 
+        url: '/assets/brac3.jpg', 
+        category: 'BRAC' 
+    },
+
+    { 
+        id: 8, 
+        url: '/assets/brac4.jpg', 
         category: 'BRAC' 
     },
     //... more photos...  // Add as many photos as needed to populate the array
