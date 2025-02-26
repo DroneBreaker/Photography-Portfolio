@@ -1,6 +1,6 @@
 <template>
     <section class="px-4 p-2 mb-32">
-        <h1 class="text-3xl md:text-7xl font-bold text-center mt-[20%] md:mt-[12%] h-22 mb-4 bg-clip-text text-transparent bg-gradient-to-r from-red-400 to-blue-500">
+        <h1 class="text-4xl md:text-7xl font-bold text-center mt-[40%] md:mt-[12%] h-22 mb-4 bg-clip-text text-transparent bg-gradient-to-r from-red-400 to-blue-500">
             Capturing Life's Beautiful Moments
         </h1>
 
