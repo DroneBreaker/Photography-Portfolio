@@ -1,6 +1,6 @@
 <template>
     <section class="px-4 p-2 mb-22">
-        <h1 class="text-3xl md:text-7xl font-bold text-center my-[12%] mb-6">
+        <h1 class="text-3xl md:text-7xl font-bold text-center my-[12%] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-500">
             Capturing Life's Beautiful Moments
         </h1>
 

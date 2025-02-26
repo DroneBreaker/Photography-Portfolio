@@ -8,7 +8,7 @@
                 </a>
             </h3>
 
-            <div class="ml-[50%] md:ml-[50%] p-1">
+            <nav class="hidden md:flex ml-[50%] md:ml-[50%] p-1">
                 <!-- Navigation links -->
                 <a href="/" class="mx-4">
                     <RouterLink>Home</RouterLink>
@@ -21,7 +21,7 @@
                 <a href="/">
                     <RouterLink>Contact</RouterLink>
                 </a>
-            </div>
+            </nav>
         </div>
     </header>
 </template>
