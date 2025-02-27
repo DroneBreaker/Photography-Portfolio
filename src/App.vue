@@ -1,14 +1,12 @@
 <script setup>
 import Navbar from './components/Navbar.vue'
-import Hero from './components/Hero.vue'
-import Gallery from './views/Gallery.vue'
+import { RouterView } from 'vue-router'
+
 </script>
 
 <template>
-  <div class="bg-black min-h-screen text-gray-300">
+  <div class="bg-black min-h-screen text-gray-600">
     <Navbar/>
-    <Hero/>
-    <Gallery/>
 
     <RouterView/>
   </div>

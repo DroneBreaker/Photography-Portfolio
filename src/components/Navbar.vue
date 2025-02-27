@@ -2,6 +2,7 @@
     <header>
         <div class="flex p-4">
             <Camera class="w-8 md:w-7 h-8 md:h-7 mt-1"/>
+
             <h3 class="px-4">
                 <a href="/" class="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-500 font-medium text-4xl md:text-2xl">
                     Derick Limitless
@@ -10,17 +11,11 @@
 
             <nav class="hidden md:flex ml-[50%] md:ml-[50%] lg:ml-[60%] p-1">
                 <!-- Navigation links -->
-                <a href="/" class="mx-4">
-                    <RouterLink>Home</RouterLink>
-                </a>
+                <RouterLink to="/" class="mx-4">Home</RouterLink>
 
-                <a href="/about" class="mx-4">
-                    <RouterLink>About</RouterLink>
-                </a>
+                <RouterLink to="/about" class="mx-4">About</RouterLink>
 
-                <a href="/">
-                    <RouterLink>Contact</RouterLink>
-                </a>
+                <RouterLink to="/contact">Contact</RouterLink>
             </nav>
         </div>
     </header>

@@ -1,13 +1,15 @@
 import { createRouter, createWebHistory } from "vue-router";
 
-import Hero from "@/components/Hero.vue";
+import Home from "@/views/Home.vue";
 import About from "../views/About.vue";
 import NotFound from "@/views/NotFound.vue";
+import Contact from "@/views/Contact.vue";
 
 const routes = [
-    { path: '/', component: Hero },
+    { path: '/', component: Home },
     { path: '/about', component: About },
-    { path: '*', component: NotFound }, // catch-all route
+    { path: '/contact', component: Contact },
+    { path: '/:catchAll(.*)', component: NotFound }, // catch-all route
 ]
 
 const router = createRouter({
