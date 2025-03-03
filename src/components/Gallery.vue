@@ -49,6 +49,7 @@ const photos = [
         url: '/assets/exclusive3.jpg', 
         category: 'Exclusives' 
     },
+
     { 
         id: 4, 
         url: '/assets/exclusive4.jpg', 
@@ -57,24 +58,60 @@ const photos = [
 
     { 
         id: 5, 
+        url: '/assets/bb1.jpg', 
+        category: 'Portraits' 
+    },
+
+    { 
+        id: 6, 
+        url: '/assets/bb2.jpg', 
+        category: 'Portraits'  
+    },
+
+    { 
+        id: 7, 
+        url: '/assets/Efia.jpg', 
+        category: 'Portraits' 
+    },
+
+    { 
+        id: 8, 
+        url: '/assets/IMG_4152.jpg', 
+        category: 'Portraits' 
+    },
+
+    { 
+        id: 9, 
+        url: '/assets/IMG_4323.jpg', 
+        category: 'Portraits' 
+    },
+
+    { 
+        id: 10, 
+        url: '/assets/trad.jpg', 
+        category: 'Portraits' 
+    },
+
+    { 
+        id: 11, 
         url: '/assets/brac1.jpg', 
         category: 'BRAC' 
     },
 
     { 
-        id: 6, 
+        id: 12, 
         url: '/assets/brac2.jpg', 
         category: 'BRAC' 
     },
 
     { 
-        id: 7, 
+        id: 13, 
         url: '/assets/brac3.jpg', 
         category: 'BRAC' 
     },
 
     { 
-        id: 8, 
+        id: 14, 
         url: '/assets/brac4.jpg', 
         category: 'BRAC' 
     },
