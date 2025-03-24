@@ -5,7 +5,7 @@
 
             <h3 class="px-4">
                 <a href="/" class="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-500 font-medium text-4xl md:text-2xl">
-                    Derick Limitless
+                    LensArt Media
                 </a>
             </h3>
 
