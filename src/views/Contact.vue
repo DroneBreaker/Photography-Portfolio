@@ -7,16 +7,20 @@
         </p>
 
         <div class="flex justify-center mb-4">
-            <a href="mailto:brownierz01@gmail.com" class="text-gray-400 hover:text-purple-400 transition-colors">
+            <a href="mailto:lensartmedia727@gmail.com" class="text-gray-400 hover:text-purple-400 transition-colors">
                 <Mail class="w-8 h-8 mx-4"/>
             </a>
 
-            <a href="https://www.instagram.com/michal-brownierz/" class="text-gray-400 hover:text-purple-400 transition-colors">
+            <a href="https://www.instagram.com/lensart.media/" class="text-gray-400 hover:text-purple-400 transition-colors">
                 <Instagram class="w-8 h-8 mx-4"/>
             </a>
             
-            <a href="https://twitter.com/MichalBrownierz" class="text-gray-400 hover:text-purple-400 transition-colors">
-                <Twitter class="w-8 h-8 ml-2"/>
+            <a href="https://twitter.com/drakemadeitt" class="text-gray-400 hover:text-purple-400 transition-colors">
+                <Twitter class="w-8 h-8 ml-2 mx-4"/>
+            </a>
+
+            <a href="callto:+233543591039" class="text-gray-400 hover:text-purple-400 transition-colors">
+                <Phone class="w-8 h-8 ml-2" />
             </a>
         </div>
     </div>
@@ -26,7 +30,7 @@
 /**
  * Imports
  */
-import { Mail, Instagram, Twitter } from 'lucide-vue-next'
+import { Mail, Instagram, Twitter, Phone } from 'lucide-vue-next'
 </script>
 
 <style lang="scss" scoped>
